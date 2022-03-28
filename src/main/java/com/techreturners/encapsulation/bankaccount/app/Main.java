@@ -51,15 +51,16 @@ public class Main {
         System.out.println("Wow! Looks like we get a reward of 50 when we deposit an amount");
 
         System.out.println("Let's be naughty and add rewards without depositing!");
+        mySecureBankAccount.depositAmount(30);
         System.out.println("Oh no :( It looks like we can't do this - it's too secure!");
-        /*mySecureBankAccount.addReward();
-        mySecureBankAccount.addReward();
-        mySecureBankAccount.addReward();*/
+//        mySecureBankAccount.addReward();
+//        mySecureBankAccount.addReward();
+//        mySecureBankAccount.addReward();
         mySecureBankAccount.displayAccountBalance();
 
         System.out.println("Let's make a lot of money right now! Let's change the account balance directly!");
         System.out.println("Oh no :( It looks like we can't do this - it's too secure!");
-        //mySecureBankAccount.accountBalance = 1000000;
+//        mySecureBankAccount.accountBalance = 1000000;
         mySecureBankAccount.displayAccountBalance();
         System.out.println("😹 Well I guess that's secure!");
     }
